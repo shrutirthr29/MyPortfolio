@@ -1,0 +1,350 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    background-color: #01011c;
+}
+
+.blog {
+    height: 100%;
+    width: 100%;
+}
+
+#homepage {
+    display: inline-flexbox;
+    background-color: #01011c;
+    background-position: center;
+}
+
+
+#mask1 {
+    height: 100vh;
+    background-image: linear-gradient(44deg,#ee1292, #7f3867);
+    /* width: 7cm; */
+    width: 18vw;
+    clip-path: polygon(0% 0%, 0% 100%, 91% 101%, 58% 0%);
+}
+
+#mask2 {
+    height: 54vh;
+    width: 14vw;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-image: linear-gradient(338deg, rgb(125, 4, 166), rgb(35 97 227));
+    clip-path: polygon(100% 0%, 0% 100%, 100% 100%, 100% 0%);
+}
+
+#pic {
+    position: absolute;
+    height: 27vw;
+    width: 25vw;
+    top: 15%;
+    left: 23%;
+    /* border: 2px solid white; */
+    background-image: url("homepagePic.png");
+    background-position: 1vw -5vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* #pic img{
+    position: absolute;
+    height: 12cm;
+    width: 10cm;
+} */
+
+#homeText {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    color: white;
+    font-size: 1.25vw;
+    height: 22vw;
+    width: 37vw;
+    max-height: 22vw;
+    word-wrap: break-word;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: "Poppins", sans-serif;
+}
+
+#homeMainText {
+    font-size: 2.2vw;
+    font-weight: 200;
+    margin:10px;
+    background: -webkit-linear-gradient(82deg,#ee1292, #547acb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#homeFollowtext {
+    margin:12px;
+    margin-top:22px;
+}
+
+#about{
+    background-color:#01011c;
+    display:inline-flexbox;
+    /* border-bottom: 2px solid white; */
+}
+
+.aboutHead{
+    height:4vw;
+    width:20vw;
+    font-size: 2.6vw;
+    text-align: center;
+    color:rgba(94, 89, 89, 0.278);
+    border:2px solid white;
+    position: relative;
+    top:7%;
+    left:40%;
+    right:50%;
+    font-weight: bolder;
+}
+.aboutHead::after{
+    content:"ABOUT ME";
+    position:absolute;
+    display: block;
+    font-size: 1.8vw;
+    top:1vw;
+    left:25%;
+    color:white;
+}
+
+#aboutPic{
+    /* border:2px solid white; */
+    height:28vw;
+    width:24vw;
+    position:relative;
+    background-image: url("aboutPic.png");
+    background-position: -1vw -7vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 80% 200%;
+    top:10%;
+    left:10%
+}
+
+#aboutMe{
+    position: absolute;
+    left: 46%;
+    top:116%;
+    color: white;
+    height: 13vw;
+    width: 36vw;
+    font-size: 1vw;
+    text-align: center;
+}
+
+#education{
+    height:10vw;
+    width:22.5vw;
+    padding: 10px;
+    border:2px solid white;
+    margin-right: 3vw;
+    font-size: 0.97vw;
+    /* position: relative; */
+    color:#d214ad;
+    /* bottom:60%;
+    left:38%; */
+    text-align: center;
+    border-radius: 10px;
+    /* -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);    */
+}
+
+.head{
+    font-size: 1.3vw;
+}
+
+#skills{
+    height:9.8vw;
+    width:22.5vw;
+    padding: 10px;
+    border:2px solid white;
+    color:#d214ad;
+    text-align: center; 
+    border-radius: 10px;
+    font-size: 0.97vw;
+}
+
+#aboutContent{
+    display: inline-flex;
+    position: absolute;
+    width:50vw;
+    height:15vw;
+    top:148%;
+    right:8%;
+    
+}
+
+.skillsElement{
+    display: inline-block;
+    width:3cm;
+    text-align: left;
+    margin:5px;
+}
+
+.socialHandle{
+    height:5cm;
+    width:1.2cm;
+    /* border:2px solid white; */
+    position:absolute;
+    top: 31%;
+    right: 6%;
+}
+.icons{
+    background-size: contain;
+    height:30px;
+    width:30px;
+    margin: 7px;
+    margin-top: 16px;
+}
+#linkdin{
+    background-image: url("linkedin.png");
+    filter:invert()
+}
+#twitter{
+    background-image: url("twitter.png")
+}
+#facebook{
+    background-image: url("facebook.png");
+}
+#insta{
+    background-image: url("insta.png")
+}
+
+#socialHandle2{
+    position:absolute;
+    left:5%;
+    top:120%;
+    bottom:auto;
+    /* border:2px solid green; */
+}
+
+
+#contact{
+    height: 60vh;
+    width:100vw;
+    background-color:#01011c;
+}
+
+#contactHead{
+    height:4vw;
+    width:20vw;
+    font-size: 2.6vw;
+    text-align: center;
+    color:rgba(94, 89, 89, 0.278);
+    border:2px solid white;
+    position: absolute;
+    bottom:-120%;
+    left:40%;
+    right:50%;
+    font-weight: bolder;
+}
+#contactHead::after{
+    content:"CONTACT ME";
+    position:absolute;
+    display: block;
+    font-size: 1.8vw;
+    top:1vw;
+    left:19%;
+    color:white;
+}
+
+.detailContainer{
+    height:13vw;
+    width:20vw;
+    padding: 10px;
+    font-size: 1.5vw;
+    position: absolute;
+    color:#d214ad;
+    top:220%;
+    left:30%;
+    text-align: left;
+    border-radius: 10px;
+}
+#ques{
+    left:1%;
+    color:white;
+}
+#ans{
+    left:20%;
+}
+
+.head:hover{
+    bottom:70%;
+}
+
+#navbar{
+    position: absolute;
+    top:6%;
+    right:6%;
+    height:1.4vw;
+    /* border: 2px solid white; */
+    width:11vw;
+    color :white;
+    font-size: 1.2vw;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.navbtn{
+    display:inline-block;
+}
+.navbtn:hover{
+    color:#740c59;
+}
+
+
+.custom-shape-divider-bottom-1663327506 {
+    position: absolute;
+    top:180%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1663327506 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 153px;
+}
+
+.custom-shape-divider-bottom-1663327506 .shape-fill {
+    fill: #9c2e72;
+}
+
+
+
+
+@media only screen and (max-width: 905px) {
+    #pic{
+        left: 40vw;
+        right:60vw;
+        top:4%;
+        height:8cm;
+        width:5cm;
+        align-items: center;
+        /* border: 2px solid white; */
+    }
+    #homeText{
+        top:50%;
+        left:35%;
+        text-align: center;
+        font-size: 1.7vw;
+    }
+    #homeMainText{
+        font-size: 24px;
+    }
+  }
+
